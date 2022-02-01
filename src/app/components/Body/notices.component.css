@@ -1,59 +1,58 @@
-.notices{
+.notices {
   padding: 60px 240px;
 }
 
-li{
+li {
   list-style: none;
 }
 
-.row{
+.row {
   padding-top: 20px;
 }
 
-.col{
+.col {
   max-width: 70%;
 }
 
-.status-wrapper{
-width: 100%;
-height: 120px;
-background: #fff;
-border: 1px solid #dbdbdb;
-border-radius: 2px;
-padding: 10px;
-padding-right: 0;
-padding-top: 24px;
-display: flex;
-align-items: center;
-overflow: hidden;
-overflow-x: auto;
+.status-wrapper {
+  width: 100%;
+  height: 120px;
+  background: #fff;
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+  padding: 10px;
+  padding-right: 0;
+  padding-top: 24px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  overflow-x: auto;
 }
 
-
-.status-wrapper::-webkit-scrollbar{
+.status-wrapper::-webkit-scrollbar {
   display: none;
 }
 
-.status-card{
- flex: 0 0 auto;
- width: 80px;
- max-width: 80px;
- display: flex;
- flex-direction: column;
- align-items: center;
- margin-right: 15px;
+.status-card {
+  flex: 0 0 auto;
+  width: 80px;
+  max-width: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 15px;
 }
 
-.profile-picture{
+.profile-picture {
   width: 70px;
   height: 70px;
   border-radius: 50%;
   overflow: hidden;
   padding: 4px;
-  background: linear-gradient(45deg,yellow, red 50%);
+  background: linear-gradient(45deg, yellow, red 50%);
 }
 
-.profile-picture img{
+.profile-picture img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -61,52 +60,61 @@ overflow-x: auto;
   border: 2px solid #fff;
 }
 
-.username{
+.username {
   width: 100%;
   overflow: hidden;
   text-align: center;
   font-size: 12px;
   margin-top: 5px;
-  color: rgba(0,0,0,0.5)
-
+  color: rgba(0, 0, 0, 0.8);
 }
 
-.post{
-width: 100%;
-height: 800px;
-background: #fff;
-border: 1px solid #dbdbdb;
-margin-top: 40px;
+.post {
+  width: 100%;
+  height: 825px;
+  background: #fff;
+  border: 1px solid #dbdbdb;
+  margin-top: 40px;
+  border-radius: 5px;
 }
 
-.profile-pic{
-  width: 70px;
-  height: 70px;
+.profile-pic {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  overflow: hidden;
+  padding: 4px;
+  background: linear-gradient(45deg, yellow, red 50%);
+  float: left;
+  margin: 10px;
+}
+
+.profile-pic img {
+  width: 100%;
+  height: 100%;
   object-fit: cover;
   border-radius: 50%;
   border: 2px solid #fff;
-  padding: 10px;
-  float: left;
 }
 
-.usernameInfo{
+.usernameInfo {
   font-size: 14px;
-  margin-top: 5px;
+  margin-top: 30px;
   float: left;
-  position: relative;
-  top: 20px;
+  color: #000;
 }
 
-.options{
+.options {
   float: right;
   margin-right: 27px;
+  margin-top: 7px;
   color: #000;
   font-size: 33px;
   text-decoration: none;
 }
 
-.pic-post img{
-  height: 614px;
+.pic-post img {
+  height: 514px;
   width: 100%;
   display: block;
 }
@@ -116,7 +124,7 @@ margin-top: 40px;
   padding: 9px 15px 10px 13px;
 }
 
-.interactions i{
+.interactions i {
   padding-right: 20px;
   font-size: 24px;
 }
@@ -124,5 +132,47 @@ margin-top: 40px;
 i.mark {
   position: relative;
   left: 252%;
-background: transparent;
+  background: transparent;
+}
+
+.likes {
+  margin-left: 18px;
+  color: #000;
+  font-family: monospace;
+}
+
+.footer_post {
+  margin: -15px 15px 1px 17px;
+  text-align: justify;
+  font-family: Arial;
+  font-size: 13px;
+}
+
+.time-post {
+  font-size: 11px;
+  color: gray;
+  margin-left: 18px;
+}
+
+.comments-area {
+  position: relative;
+  top: -13px;
+}
+
+.emoji {
+  font-size: 30px;
+  padding: 10px;
+}
+
+.comment-box {
+  position: relative;
+  top: -4px;
+  width: 485px;
+  border: none;
+}
+
+.btn-link {
+  text-decoration: none;
+  margin-left: 8px;
+  margin-top: -15px;
 }

@@ -1,0 +1,49 @@
+.navbar{
+  align-items: center;
+  border-bottom: 1px solid #dbdbdb;
+  border-bottom: 1px solid rgba(var(--b6a,219,219,219),1);
+  top: 0;
+  width: 100%;
+  z-index: 3;
+}
+
+.nav-brand{
+width: 100px;
+margin-right: 10rem;
+margin-left: -11%;
+}
+
+.container-fluid{
+  align-items: center;
+  padding-left: 18%;
+}
+
+.form-control{
+  font-size: 16px;
+  padding: 0 10px;
+  width: 273px;
+    background: #efefef;
+}
+
+.iconBar{
+  display: flex;
+  flex-direction: row;
+  padding-left: 80px;
+  white-space: nowrap;
+}
+
+.nav-link.active{
+  color: #000;
+  text-decoration: none;
+}
+
+
+li{
+  list-style: none;
+  font-size: 22px;
+}
+
+.Profile{
+  width: 25px;
+  border-radius: 50%;
+}

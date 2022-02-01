@@ -176,3 +176,74 @@ i.mark {
   margin-left: 8px;
   margin-top: -15px;
 }
+
+/* suggestions area */
+
+.suggestions {
+  position: fixed;
+}
+
+.profile img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.profile-card {
+  margin-top: 15px;
+}
+
+.infoProfile {
+  display: flex;
+  flex-direction: column;
+  float: right;
+  font-size: 14px;
+  margin: 13px 15px;
+}
+
+.usernameAccount {
+  font-weight: 500;
+}
+
+.subtext {
+  margin-top: -20px;
+  color: gray;
+}
+
+.change {
+  margin-left: 133px;
+  margin-top: -53px;
+}
+
+.suggest {
+  display: flex;
+  justify-content: flex-start;
+  padding: 44px 0px 10px 0px;
+}
+
+.suggestText {
+  color: gray;
+}
+
+.see {
+  margin-left: 95px;
+  text-decoration: none;
+  color: #000;
+}
+
+a {
+  text-decoration: none;
+}
+
+.profile:first-child .picsSuggest {
+  width: 50px;
+  height: 50px;
+}
+
+.usernameAccount1 {
+  margin-left: -40px;
+  font-weight: 500;
+}
+.subtext1 {
+  color: gray;
+}

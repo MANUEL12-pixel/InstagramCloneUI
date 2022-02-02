@@ -39,3 +39,7 @@ Run the following lines
 `@fortawesome/fontawesome-free`
 `@fortawesome/free-regular-svg-icons`
 `np@fortawesome/free-solid-svg-icons`
+
+Example:
+
+`<i class="fas fa-user"></i>`
